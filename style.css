@@ -8,6 +8,7 @@
 
 body {
   background-color: #f2f2f2;
+  width: 100%;
 }
 
 /* HEADER */
@@ -19,6 +20,7 @@ header {
   top: 0;
   overflow: hidden;
   background-color: #f2f2f2;
+  border-bottom: 1px solid black;
 }
 
 h1 {
@@ -67,6 +69,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px 0px;
   flex-direction: column;
   width: 50%;
 }
@@ -114,6 +117,76 @@ button:hover {
 /* ABOUT */
 .about {
   background-color: #e0e0e0af;
+}
+
+/* LEARNED */
+.learned {
+  background-color: #1434A4;
+  height: 300px;
+}
+
+.learned h2 {
+  font-size: 36px;
+  width: 100%;
+  color: white;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container li {
+  display: flex;
+  justify-content: center;
+  list-style: circle;
+  padding-bottom: 10px;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.all-cards h3 {
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.card-html {
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.4);
+  transition: 0.3s;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.card-css {
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.4);
+  transition: 0.3s;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.card-js {
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.4);
+  transition: 0.3s;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-html:hover, .card-css:hover, .card-js:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.6);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
 
 /* UPDATES */
