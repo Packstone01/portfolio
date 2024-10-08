@@ -66,9 +66,7 @@ a:hover {
 }
 
 .info-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   margin: 20px 0px;
   flex-direction: column;
   width: 50%;
@@ -116,29 +114,42 @@ button:hover {
 
 /* ABOUT */
 .about {
-  background-color: #e0e0e0af;
+  background-color: #1434A4;
+  color: white;
+  min-height: 250px;
+}
+
+.about h2 {
+  text-align: center;
+  padding: 30px;
+  font-size: 36px;
+  text-decoration: underline;
+}
+
+.about p {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px 200px;
+  font-size: 20px;
 }
 
 /* LEARNED */
 .learned {
-  background-color: #1434A4;
   height: 300px;
 }
 
 .learned h2 {
   font-size: 36px;
   width: 100%;
-  color: white;
+  text-align: center;
   text-decoration: underline;
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 .container li {
   display: flex;
   justify-content: center;
-  list-style: circle;
   padding-bottom: 10px;
 }
 
@@ -150,14 +161,13 @@ button:hover {
 
 .all-cards h3 {
   text-decoration: underline;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding: 10px 0px;
 }
 
 .card-html {
   width: 25%;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   transition: 0.3s;
   background-color: white;
   border-radius: 10px;
@@ -165,7 +175,7 @@ button:hover {
 
 .card-css {
   width: 25%;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   transition: 0.3s;
   background-color: white;
   border-radius: 10px;
@@ -173,18 +183,16 @@ button:hover {
 
 .card-js {
   width: 25%;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   transition: 0.3s;
   background-color: white;
   border-radius: 10px;
 }
 
-/* On mouse-over, add a deeper shadow */
 .card-html:hover, .card-css:hover, .card-js:hover {
-  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 16px 0 rgba(20, 52, 164, 0.9);
 }
 
-/* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
 }
