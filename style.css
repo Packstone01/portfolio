@@ -200,34 +200,11 @@ a:hover {
   padding: 2px 16px;
 }
 
-/* UPDATES */
-.updates {
-  background-color: #e0e0e0af;
-}
-
-table {
-  border-bottom: 1px solid gray;
-  border-collapse: collapse;
-  width: 34%;
-}
-
-th {
-  padding: 15px;
-  border-bottom: 1px solid gray;
-  text-decoration: underline;
-}
-
-td {
-  padding: 15px;
-  border-bottom: 1px solid gray;
-  text-align: center;
-}
-
-tr:nth-child(even) {
+/* CONTACT */
+.social {
   background-color: #E0E0E0;
 }
 
-/* CONTACT */
 caption {
   text-align: left;
   font-size: 24px;
