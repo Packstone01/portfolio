@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Connor Schotz Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="script.js"></script>
   </head>
 
@@ -31,7 +31,9 @@
             <h2 class="info-head">Hello, I am Connor Schotz!</h2>
             <p class="info-head-sub">A web and software developer.</p>
             <p class="info-p">The best solution for all your web and software needs.</p>
-            <div class="btn"><a href="/resume/connor-schotz-resume.pdf" download><button><i class="fa-solid fa-download"></i> Download Resume</button></a></div>
+            <div class="btn">
+              <a href="/resume/connor-schotz-resume.pdf" download><p><i class="fa-solid fa-download"></i> Download Resume</p></a>
+            </div>
           </div>
           <div class="img">
             <img src="images/me.webp" width="300" height="300" alt="A headshot of Connor Schotz.">
@@ -41,8 +43,8 @@
 
       <!-- About Information -->
       <div class="about">
-          <h2>About Me</h2>
-          <p>I am currently enrolled at A-B Tech in Asheville and I am getting my associates in Information Technology: Software and Web Development. I am learning HTML, CSS, and Javascript for the first few semesters and then transitioning to focus on languages like PHP, Python, and SQL. I plan on getting a full-stack development job once I am qualified to do so. Until then, happy programming!</p>
+        <h2>About Me</h2>
+        <p>I am currently enrolled at A-B Tech in Asheville and I am getting my associates in Information Technology: Software and Web Development. I am learning HTML, CSS, and Javascript for the first few semesters and then transitioning to focus on languages like PHP, Python, and SQL. I plan on getting a full-stack development job once I am qualified to do so. Until then, happy programming!</p>
       </div>
 
       <!-- Learned Section -->
@@ -118,15 +120,15 @@
       </div>
 
       <!-- Contact Information -->
-      <section>
-        <h2 id="contact">Check Out My Socials!</h2>
-        <ul class="contact-info">
-          <img src="images/linkedin-brands-solid.svg" width="40px" height="40px" alt="A Linkedin logo.">
-          <li><a href="https://www.linkedin.com/in/connor-schotz" target="_blank" rel="noreferrer">LinkedIn</a></li>
-          <img src="images/github-brands-solid.svg" width="40px" height="40px" alt="A Github Logo.">
-          <li><a href="https://github.com/Packstone01" target="_blank" rel="noreferrer">Github</a></li>
-        </ul>
-      </section>
+      <div class="social">
+        <section>
+          <h2>Check Out My Socials!</h2>
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/connor-schotz" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Packstone01"><i class="fa-brands fa-square-github"></i></a>
+          </div>
+        </section>
+      </div>
     </main>
 
     <!-- Footer -->
